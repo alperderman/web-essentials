@@ -120,9 +120,6 @@ util.xhr = function (url, callback, cache, method, async) { //xhr function used 
     if (async == null) {async = true;}
     var xhr, guid, cacheUrl, hashUrl;
     method = method.toUpperCase();
-    if (!(method === 'GET' || method === 'POST')) {
-        throw new Error('method must either be GET or POST');
-    }
     xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
         if (xhr.readyState == XMLHttpRequest.DONE) {
