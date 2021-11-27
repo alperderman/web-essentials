@@ -2,8 +2,8 @@
 Essential assets to kickstart your web project, gathered from various different repositories and sources. 
 
 Contains:
-- util.css: Combination of [Jekyll's](https://github.com/jekyll/jekyll) markdown styles and [Grayshift's](https://github.com/yanchokraev/grayshift) selected utility classes
-- util.js: Contains convenient functions from [DCG](https://github.com/alperderman/dcg) with their polyfills
+- util.css, Combination of [Jekyll's](https://github.com/jekyll/jekyll) markdown styles and [Grayshift's](https://github.com/yanchokraev/grayshift) selected utility classes
+- util.js, Contains convenient functions from [DCG](https://github.com/alperderman/dcg) with their polyfills
 - [Fomantic's](https://github.com/fomantic/fomantic-ui) variation of [FontAwesome](https://fontawesome.com/) icons, also includes the documentation page in order to search through the icons easily
 - [Prism.js](https://github.com/PrismJS/prism) for static code highlighting
 - [Ace](https://github.com/ajaxorg/ace) for dynamic code highlighting
