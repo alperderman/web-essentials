@@ -138,6 +138,7 @@ util.xhr = function (url, callback, cache, method, async) { //xhr function used 
     xhr.send();
 };
 util.DOMLoad = function () { //imitate window onload
+    document.dispatchEvent(new CustomEvent('DOMContentLoaded'));
     window.dispatchEvent(new CustomEvent('DOMContentLoaded'));
     window.dispatchEvent(new CustomEvent('load'));
 };
